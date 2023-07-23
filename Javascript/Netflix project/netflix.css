@@ -1,0 +1,111 @@
+.container-one {
+    background-image: url(./netfliximages/netflixbackground.jpg);
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: rgb(56, 54, 54);
+    scroll-behavior: ;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    transform: rotate3d(1, 1, 1, 3deg);
+    position: relative;
+    left: 200px;
+    top: 5px;
+    color: red;
+    font-weight: bolder;
+    transform: scale(9px);
+}
+
+
+#first-select {
+    position: relative;
+    right: 230px;
+    top: 5px;
+    width: 130px;
+    text-align: center;
+}
+
+#sign-in-button {
+    position: relative;
+    right: 210px;
+    top: 5px;
+    background-color: rgb(234, 11, 11);
+
+}
+
+#sign-in-button>a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#head-text {
+    position: relative;
+    left: 300px;
+    color: white;
+    top: 136px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#head-para {
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: relative;
+    left: 550px;
+    color: white;
+    top: 150px;
+}
+/*
+#third-para {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    position: relative;
+    left: 400px;
+    color: white;
+    top: 160px;
+
+}
+*/
+
+#form-one {
+    position: relative;
+    top: 176px;
+    left: 420px;
+}
+
+#gret {
+    font-size: 1.8rem;
+}
+
+#first-input {
+    transition: color 100ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    width: 25%;
+    line-height: 1.5rem;
+    padding: 1.5rem 1rem 0.5rem;
+    opacity: 0.5;
+    border: 1px solid rgb(240, 238, 238);
+}
+
+#first-input-button {
+    width: 15%;
+    line-height: 1.4rem;
+    padding: 1.5rem 1rem 0.5rem;
+    background-color: red;
+    border-radius: 10px 15px;
+    cursor: pointer;
+}
+
+#first-input-button>label {
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    color: aliceblue;
+    cursor: pointer;
+
+}
